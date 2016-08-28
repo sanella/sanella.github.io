@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "s-font";
+  src:url("fonts/s-font.eot");
+  src:url("fonts/s-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/s-font.woff") format("woff"),
+    url("fonts/s-font.ttf") format("truetype"),
+    url("fonts/s-font.svg#s-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "s-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "s-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-child:before {
+  content: "\61";
+}
+.icon-social-linkedin:before {
+  content: "\62";
+}
+.icon-social-google:before {
+  content: "\63";
+}
+.icon-android-pin:before {
+  content: "\64";
+}
+.icon-android-radio-button-off:before {
+  content: "\65";
+}
+.icon-android-radio-button-on:before {
+  content: "\66";
+}
+.icon-android-star:before {
+  content: "\67";
+}
+.icon-android-star-half:before {
+  content: "\68";
+}
+.icon-android-star-outline:before {
+  content: "\69";
+}
+.icon-android-settings:before {
+  content: "\6a";
+}
+.icon-android-wifi:before {
+  content: "\6b";
+}
+.icon-at:before {
+  content: "\6c";
+}
+.icon-disc:before {
+  content: "\6d";
+}
+.icon-earth:before {
+  content: "\6e";
+}
+.icon-edit:before {
+  content: "\6f";
+}
+.icon-connection-bars:before {
+  content: "\70";
+}
+.icon-social-skype:before {
+  content: "\71";
+}
+.icon-social-octocat:before {
+  content: "\72";
+}
+.icon-hyperlink:before {
+  content: "\73";
+}
